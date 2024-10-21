@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.57">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="MIAA">
+
+<title>Informe Estadísticas de Género de Profesionistas en las Industrias de Aeronáutica y Aeroespacial. Primer trimestre de 2023-2do trimestre de 2024.</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="Reporte_V1_files/libs/clipboard/clipboard.min.js"></script>
+<script src="Reporte_V1_files/libs/quarto-html/quarto.js"></script>
+<script src="Reporte_V1_files/libs/quarto-html/popper.min.js"></script>
+<script src="Reporte_V1_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="Reporte_V1_files/libs/quarto-html/anchor.min.js"></script>
+<link href="Reporte_V1_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="Reporte_V1_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="Reporte_V1_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="Reporte_V1_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="Reporte_V1_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article toc-left">
+<div id="quarto-sidebar-toc-left" class="sidebar toc-left">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul class="collapse">
+  <li><a href="#introducción" id="toc-introducción" class="nav-link active" data-scroll-target="#introducción">Introducción</a></li>
+  <li><a href="#metodología" id="toc-metodología" class="nav-link" data-scroll-target="#metodología">Metodología</a></li>
+  <li><a href="#pilotos-de-aviación" id="toc-pilotos-de-aviación" class="nav-link" data-scroll-target="#pilotos-de-aviación">Pilotos de Aviación</a>
+  <ul class="collapse">
+  <li><a href="#representación-laboral" id="toc-representación-laboral" class="nav-link" data-scroll-target="#representación-laboral">Representación laboral</a></li>
+  <li><a href="#brecha-salarial" id="toc-brecha-salarial" class="nav-link" data-scroll-target="#brecha-salarial">Brecha salarial</a></li>
+  <li><a href="#jornada-laboral" id="toc-jornada-laboral" class="nav-link" data-scroll-target="#jornada-laboral">Jornada laboral</a></li>
+  </ul></li>
+  <li><a href="#controladores-de-tráfico-aéreo" id="toc-controladores-de-tráfico-aéreo" class="nav-link" data-scroll-target="#controladores-de-tráfico-aéreo">Controladores de Tráfico Aéreo</a>
+  <ul class="collapse">
+  <li><a href="#representación-laboral-1" id="toc-representación-laboral-1" class="nav-link" data-scroll-target="#representación-laboral-1">Representación laboral</a></li>
+  <li><a href="#brecha-salarial-1" id="toc-brecha-salarial-1" class="nav-link" data-scroll-target="#brecha-salarial-1">Brecha salarial</a></li>
+  <li><a href="#jornada-laboral-1" id="toc-jornada-laboral-1" class="nav-link" data-scroll-target="#jornada-laboral-1">Jornada laboral</a></li>
+  </ul></li>
+  <li><a href="#ingenieros-mecánicos1" id="toc-ingenieros-mecánicos1" class="nav-link" data-scroll-target="#ingenieros-mecánicos1">Ingenieros Mecánicos</a>
+  <ul class="collapse">
+  <li><a href="#representación-laboral-2" id="toc-representación-laboral-2" class="nav-link" data-scroll-target="#representación-laboral-2">Representación laboral</a></li>
+  <li><a href="#brecha-salarial-2" id="toc-brecha-salarial-2" class="nav-link" data-scroll-target="#brecha-salarial-2">Brecha salarial</a></li>
+  <li><a href="#jornada-laboral-2" id="toc-jornada-laboral-2" class="nav-link" data-scroll-target="#jornada-laboral-2">Jornada laboral</a></li>
+  </ul></li>
+  <li><a href="#otros-médicos-especialistas2" id="toc-otros-médicos-especialistas2" class="nav-link" data-scroll-target="#otros-médicos-especialistas2">Otros Médicos Especialistas</a>
+  <ul class="collapse">
+  <li><a href="#representación-laboral-3" id="toc-representación-laboral-3" class="nav-link" data-scroll-target="#representación-laboral-3">Representación laboral</a></li>
+  <li><a href="#brecha-salarial-3" id="toc-brecha-salarial-3" class="nav-link" data-scroll-target="#brecha-salarial-3">Brecha salarial</a></li>
+  <li><a href="#jornada-laboral-3" id="toc-jornada-laboral-3" class="nav-link" data-scroll-target="#jornada-laboral-3">Jornada laboral</a></li>
+  </ul></li>
+  <li><a href="#mecánicos-en-mantenimiento-y-reparación-de-vehículos-de-motor3" id="toc-mecánicos-en-mantenimiento-y-reparación-de-vehículos-de-motor3" class="nav-link" data-scroll-target="#mecánicos-en-mantenimiento-y-reparación-de-vehículos-de-motor3">Mecánicos en Mantenimiento y Reparación de Vehículos de Motor</a>
+  <ul class="collapse">
+  <li><a href="#representación-laboral-4" id="toc-representación-laboral-4" class="nav-link" data-scroll-target="#representación-laboral-4">Representación laboral</a></li>
+  <li><a href="#brecha-salarial-4" id="toc-brecha-salarial-4" class="nav-link" data-scroll-target="#brecha-salarial-4">Brecha salarial</a></li>
+  <li><a href="#jornada-laboral-4" id="toc-jornada-laboral-4" class="nav-link" data-scroll-target="#jornada-laboral-4">Jornada laboral</a></li>
+  </ul></li>
+  <li><a href="#sobrecargos" id="toc-sobrecargos" class="nav-link" data-scroll-target="#sobrecargos">Sobrecargos</a>
+  <ul class="collapse">
+  <li><a href="#representación-laboral-5" id="toc-representación-laboral-5" class="nav-link" data-scroll-target="#representación-laboral-5">Representación laboral</a></li>
+  <li><a href="#brecha-salarial-5" id="toc-brecha-salarial-5" class="nav-link" data-scroll-target="#brecha-salarial-5">Brecha salarial</a></li>
+  <li><a href="#jornada-laboral-5" id="toc-jornada-laboral-5" class="nav-link" data-scroll-target="#jornada-laboral-5">Jornada laboral</a></li>
+  </ul></li>
+  <li><a href="#trabajadores-de-la-fuerza-aérea" id="toc-trabajadores-de-la-fuerza-aérea" class="nav-link" data-scroll-target="#trabajadores-de-la-fuerza-aérea">Trabajadores de la Fuerza Aérea</a>
+  <ul class="collapse">
+  <li><a href="#representación-laboral-6" id="toc-representación-laboral-6" class="nav-link" data-scroll-target="#representación-laboral-6">Representación laboral</a></li>
+  <li><a href="#brecha-salarial-6" id="toc-brecha-salarial-6" class="nav-link" data-scroll-target="#brecha-salarial-6">Brecha salarial</a></li>
+  <li><a href="#jornada-laboral-6" id="toc-jornada-laboral-6" class="nav-link" data-scroll-target="#jornada-laboral-6">Jornada laboral</a></li>
+  </ul></li>
+  </ul>
+</nav>
+</div>
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+</div>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Informe Estadísticas de Género de Profesionistas en las Industrias de Aeronáutica y Aeroespacial. Primer trimestre de 2023-2do trimestre de 2024.</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>MIAA </p>
+          </div>
+  </div>
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="introducción" class="level1">
+<h1>Introducción</h1>
+<div style="text-align: justify;">
+<p><!-- Justificar el texto --> <strong>MIAA</strong> (Mujeres en la Industria Aeronáutica y Aeroespacial) en su labor de fomentar la equidad de género en la industria aeroespacial y aeronáutica realizó el siguiente informe, que tiene como objetivo presentar estadísticas sobre la situación de género en el entorno mexicano, enfocándose en profesiones clave de estas industrias. Este documento busca crear conciencia sobre la realidad que enfrentan las mujeres en estos sectores, incluyendo la falta de representación laboral, la desigualdad salarial y la disparidad en los tiempos de jornada en comparación con sus colegas hombres. Además, pretende contribuir a la toma de decisiones en el ámbito gubernamental, privado y en la sociedad civil para promover la equidad de género.</p>
+</div>
+<p><!-- Justificar el texto --></p>
+</section>
+<section id="metodología" class="level1">
+<h1>Metodología</h1>
+<div style="text-align: justify;">
+<p>La estimación de las cifras para cada profesión, correspondientes al periodo del primer trimestre de 2023 al segundo trimestre de 2024, se realizó por medio de los datos trimestrales de la Encuesta Nacional de Ocupación y Empleo (ENOE) del Instituto Nacional de Estadística y Geografía (INEGI). Esta encuesta es la principal fuente de información sobre el mercado laboral mexicano al ofrecer datos mensuales y trimestrales de la fuerza de trabajo, la ocupación, la informalidad laboral, la subocupación y la desocupación. Asimismo, estas cifras se compararon con datos de otras fuentes, como artículos académicos e informes de organizaciones e instituciones nacionales internacionales. Lo anterior con el fin de tener un panorama más completo de la equidad de género en las industrias aeronáutica y aeroespacial.</p>
+</div>
+</section>
+<section id="pilotos-de-aviación" class="level1">
+<h1>Pilotos de Aviación</h1>
+<section id="representación-laboral" class="level2">
+<h2 class="anchored" data-anchor-id="representación-laboral">Representación laboral</h2>
+<p><img src="Pilotos_1.png" class="img-fluid"></p>
+<div style="text-align: justify;">
+<p>La representación de mujeres piloto en la industria de la aviación es significativamente baja. A lo largo del periodo analizado, las mujeres piloto constituyen menos del 0.05% de la fuerza laboral de pilotos en el sector. Sin embargo, se observa que el primer trimestre de 2024 registró una proporción mayor de mujeres piloto en comparación con trimestres anteriores. Desafortunadamente, esta tendencia no se mantuvo en el trimestre siguiente.</p>
+</div>
+</section>
+<section id="brecha-salarial" class="level2">
+<h2 class="anchored" data-anchor-id="brecha-salarial">Brecha salarial</h2>
+<p><img src="Pilotos_2.png" class="img-fluid"> <img src="Pilotos_3.png" class="img-fluid"></p>
+<div style="text-align: justify;">
+<p>Al contrastar las tendencias de las distribuciones de ingresos entre hombres y mujeres desde el primer trimestre de 2023 al segundo trimestre de 2024, se perciben más constantes las proporciones de hombres que reciben los diferentes tipos de ingreso, en comparación con las proporciones de mujeres las cuales tienen variaciones más grandes. Asimismo, en las 3 categorías más altas de ingresos (4, 5 y 6) suelen estar más presentes los hombres que las mujeres.</p>
+</div>
+</section>
+<section id="jornada-laboral" class="level2">
+<h2 class="anchored" data-anchor-id="jornada-laboral">Jornada laboral</h2>
+<p><img src="Pilotos_4.png" class="img-fluid"> <img src="Pilotos_5.png" class="img-fluid"></p>
+<div style="text-align: justify;">
+<p>Durante el periodo analizado, se observa que los hombres presentan una mayor proporción de jornadas laborales superiores a 35 horas en comparación con las mujeres. Sin embargo, se registran excepciones en el primer trimestre, donde el 32.7% de las mujeres trabajaron entre 35 y 39 horas, y un 67.3% de ellas laboraron entre 49 y 56 horas. A pesar de esto, en los trimestres posteriores, la proporción de mujeres con jornadas de más de 35 horas es muy baja o, en algunos casos, nula.</p>
+</div>
+</section>
+</section>
+<section id="controladores-de-tráfico-aéreo" class="level1">
+<h1>Controladores de Tráfico Aéreo</h1>
+<section id="representación-laboral-1" class="level2">
+<h2 class="anchored" data-anchor-id="representación-laboral-1">Representación laboral</h2>
+<p><img src="CTA_1.png" class="img-fluid"></p>
+<div style="text-align: justify;">
+<p>Entre el primer trimestre de 2023 y el segundo trimestre de 2024, se observa una tendencia de predominancia masculina en la ocupación de controladores aéreos. Sin embargo, en el primer trimestre de 2023, las mujeres representaron el 61% de la fuerza laboral en este campo. A partir del tercer trimestre de 2023 y hasta el segundo trimestre de 2024, la diferencia de género se redujo, mostrando una brecha menos pronunciada entre mujeres y hombres en esta profesión.</p>
+</div>
+</section>
+<section id="brecha-salarial-1" class="level2">
+<h2 class="anchored" data-anchor-id="brecha-salarial-1">Brecha salarial</h2>
+<p><img src="CTA_2.png" class="img-fluid"> <img src="CTA_3.png" class="img-fluid"></p>
+<div style="text-align: justify;">
+<p>En cuanto a la distribución de ingresos de las mujeres, durante el primer trimestre se observó una mayor proporción de mujeres en comparación con los hombres en las categorías de ingresos 1, 2 y 3. Sin embargo, en la categoría 4, correspondiente a los salarios más altos, la proporción de hombres fue superior. Para el segundo trimestre de 2024, se registró una mayor proporción de mujeres en la categoría 2, mientras que la categoría 3 fue dominada por hombres. Finalmente, en la categoría 4, las mujeres superaron a los hombres de manera mínima.</p>
+</div>
+</section>
+<section id="jornada-laboral-1" class="level2">
+<h2 class="anchored" data-anchor-id="jornada-laboral-1">Jornada laboral</h2>
+<p><img src="CTA_4.png" class="img-fluid"> <img src="CTA_5.png" class="img-fluid"></p>
+<div style="text-align: justify;">
+<p>La duración de la jornada laboral entre hombres y mujeres controladores de tráfico aéreo mostró notables diferencias durante el periodo analizado. Las jornadas más largas, correspondientes a la categoría 8, se presentaron en todos los trimestres para los hombres, mientras que en el caso de las mujeres solo se registraron en el último trimestre, y con un porcentaje muy bajo. Las jornadas de la categoría 7 fueron comunes tanto para hombres como para mujeres; en el primer trimestre predominaron los hombres, pero en el tercer trimestre de 2023 y el primer trimestre de 2024, la proporción fue mayor para las mujeres. Sin embargo, en el segundo trimestre de 2024, los hombres nuevamente superaron a las mujeres en esta categoría. En cuanto a la categoría 6, se observó que, a lo largo de todo el periodo, las mujeres mantuvieron una mayor proporción de participación en estas jornadas en comparación con los hombres.</p>
+</div>
+</section>
+</section>
+<section id="ingenieros-mecánicos1" class="level1">
+<h1>Ingenieros Mecánicos<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></h1>
+<section id="representación-laboral-2" class="level2">
+<h2 class="anchored" data-anchor-id="representación-laboral-2">Representación laboral</h2>
+<p><img src="ING_MEC_1.png" class="img-fluid"></p>
+<div style="text-align: justify;">
+<p>En la profesión de ingeniería mecánica es notable la baja representación de mujeres. En el caso del primer trimestre de 2023, la representación de hombres fue de 82% y la de mujeres de 18%. Mientras que, en el resto de los trimestres la representación de hombres superó al 94% y la de mujeres estuvo por debajo del 6%.</p>
+</div>
+</section>
+<section id="brecha-salarial-2" class="level2">
+<h2 class="anchored" data-anchor-id="brecha-salarial-2">Brecha salarial</h2>
+<p><img src="ING_MEC_2.png" class="img-fluid"> <img src="ING_MEC_3.png" class="img-fluid"></p>
+<div style="text-align: justify;">
+<p>Al comparar la distribución de ingresos por género, se observa que las categorías de ingresos de los hombres fueron menos variables que las de las mujeres entre el primer trimestre de 2023 y el segundo trimestre de 2024. Durante este periodo, el tipo de ingreso 1 fue más frecuente entre los hombres que entre las mujeres. El tipo de ingreso 2 también mostró una mayor proporción de hombres, excepto en el cuarto trimestre de 2023. En el tipo de ingreso 3, las mujeres superaron a los hombres por más de 59 puntos porcentuales en el primer trimestre de 2023, pero en el segundo trimestre de 2024, los hombres superaron a las mujeres por 10 puntos porcentuales. En cuanto al tipo de ingreso 4, los hombres dominaron en el primer trimestre, mientras que en el último trimestre las mujeres fueron mayoría. Finalmente, el tipo de ingreso 5 se presentó en todos los trimestres para los hombres, pero no para las mujeres.</p>
+</div>
+</section>
+<section id="jornada-laboral-2" class="level2">
+<h2 class="anchored" data-anchor-id="jornada-laboral-2">Jornada laboral</h2>
+<p><img src="ING_MEC_4.png" class="img-fluid"> <img src="ING_MEC_5.png" class="img-fluid"></p>
+<div style="text-align: justify;">
+<p>En cuanto a la duración de la jornada laboral por género, entre el primer trimestre de 2023 y el segundo trimestre de 2024, la jornada más predominante para ambos géneros fue la de tipo 6. Para las mujeres ingenieras mecánicas, este tipo de jornada representó el 17% en el primer trimestre del periodo analizado y aumentó significativamente al 87% en el último trimestre. En el caso de los hombres, la jornada de tipo 6 mantuvo una proporción superior al 60% tanto en el primer como en el último trimestre del periodo.</p>
+</div>
+</section>
+</section>
+<section id="otros-médicos-especialistas2" class="level1">
+<h1>Otros Médicos Especialistas<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></h1>
+<section id="representación-laboral-3" class="level2">
+<h2 class="anchored" data-anchor-id="representación-laboral-3">Representación laboral</h2>
+<p><img src="Medicos_1.png" class="img-fluid"></p>
+<div style="text-align: justify;">
+<p>En el caso de “otros médicos especialistas”, la brecha de género es igual o menor a 36% en el periodo analizado. Las mujeres representan más del 30% de la fuerza laboral de estas profesiones; por parte de los hombres, su representación supera al 60%.</p>
+</div>
+</section>
+<section id="brecha-salarial-3" class="level2">
+<h2 class="anchored" data-anchor-id="brecha-salarial-3">Brecha salarial</h2>
+<p><img src="Medicos_2.png" class="img-fluid"> <img src="Medicos_3.png" class="img-fluid"></p>
+<div style="text-align: justify;">
+<p>En el caso del ingreso más bajo, tipo 1, se observó que, en promedio, los hombres tuvieron una mayor proporción que las mujeres en recibirlo durante el periodo analizado. En contraste, para el ingreso más alto, tipo 5, la proporción de hombres fue superior a la de las mujeres tanto en el primer trimestre de 2023 como en el segundo trimestre de 2024.</p>
+</div>
+</section>
+<section id="jornada-laboral-3" class="level2">
+<h2 class="anchored" data-anchor-id="jornada-laboral-3">Jornada laboral</h2>
+<p><img src="Medicos_4.png" class="img-fluid"> <img src="Medicos_5.png" class="img-fluid"></p>
+<div style="text-align: justify;">
+<p>En cuanto a la distribución de la jornada laboral por género durante el periodo analizado, se identificó que tanto en mujeres como en hombres la jornada de tipo 6 fue la más predominante en comparación con otros tipos de jornadas. Entre el primer y el tercer trimestre de 2023, esta jornada tuvo una mayor proporción de hombres, pero la tendencia se invirtió en el cuarto trimestre de 2023 y el primer trimestre de 2024, con más mujeres. Por otro lado, la jornada más larga, tipo 8, presentó una mayor proporción de hombres en el primer trimestre de 2023, con una diferencia de 7 puntos porcentuales sobre las mujeres. Sin embargo, para el segundo trimestre de 2024, las mujeres superaron a los hombres en esta jornada por 4 puntos porcentuales.</p>
+</div>
+</section>
+</section>
+<section id="mecánicos-en-mantenimiento-y-reparación-de-vehículos-de-motor3" class="level1">
+<h1>Mecánicos en Mantenimiento y Reparación de Vehículos de Motor<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a></h1>
+<section id="representación-laboral-4" class="level2">
+<h2 class="anchored" data-anchor-id="representación-laboral-4">Representación laboral</h2>
+<p><img src="MEC_MOTOR_1.png" class="img-fluid"></p>
+<div style="text-align: justify;">
+<p>Con respecto a las personas mecánicas en mantenimiento y reparación de vehículos de motor, la representación de las mujeres es significativamente baja en el periodo analizado. Por lado de los hombres, su proporción es igual o superior al 99% en la fuerza laboral de este sector, mientras que las mujeres tienen una proporción de 1% o menos.</p>
+</div>
+</section>
+<section id="brecha-salarial-4" class="level2">
+<h2 class="anchored" data-anchor-id="brecha-salarial-4">Brecha salarial</h2>
+<p><img src="MEC_MOTOR_2.png" class="img-fluid"> <img src="MEC_MOTOR_3.png" class="img-fluid"></p>
+<div style="text-align: justify;">
+<p>En cuanto a la distribución de ingresos por género, los hombres mostraron menores tasas de variabilidad en los diferentes tipos de ingresos a lo largo del periodo analizado, en comparación con las mujeres. El ingreso más bajo, tipo 1, presentó una mayor proporción de hombres que de mujeres tanto en el primer trimestre de 2023 como en el último trimestre analizado. Por otro lado, el ingreso más alto, tipo 5, tuvo una proporción cercana a cero para los hombres durante todo el periodo, mientras que no se registraron ocurrencias para las mujeres.</p>
+</div>
+</section>
+<section id="jornada-laboral-4" class="level2">
+<h2 class="anchored" data-anchor-id="jornada-laboral-4">Jornada laboral</h2>
+<p><img src="MEC_MOTOR_4.png" class="img-fluid"> <img src="MEC_MOTOR_5.png" class="img-fluid"></p>
+<div style="text-align: justify;">
+<p>En la gráfica sobre la distribución de la duración de la jornada laboral, se observa que los tipos de jornada laboral presentaron menores fluctuaciones para los hombres en comparación con las mujeres durante el periodo analizado. En el caso de las mujeres, la jornada de tipo 6 fue la que registró mayor proporción en la mayoría de los trimestres. Para los hombres, este mismo tipo de jornada mantuvo la mayor proporción a lo largo de todo el periodo. Al analizar la jornada más larga, tipo 8, se identificó que tanto en el primer trimestre de 2023 como en el segundo trimestre de 2024, los hombres superaron a las mujeres en proporción. En cuanto a la jornada más corta, tipo 2, no se registraron ocurrencias en varios trimestres para las mujeres; sin embargo, en el tercer trimestre de 2023, las mujeres superaron a los hombres por un 10% en la proporción de esta jornada.</p>
+</div>
+</section>
+</section>
+<section id="sobrecargos" class="level1">
+<h1>Sobrecargos</h1>
+<section id="representación-laboral-5" class="level2">
+<h2 class="anchored" data-anchor-id="representación-laboral-5">Representación laboral</h2>
+<p><img src="Sobrecargos_1.png" class="img-fluid"></p>
+<div style="text-align: justify;">
+<p>Para la profesión de sobrecargo, se observa una tendencia de crecimiento de la representación de mujeres: en el primer trimestre de 2023 tuvieron una proporción de 32% del total de la fuerza laboral, no obstante, en el segundo trimestre de 2024 ocuparon el 76%.</p>
+</div>
+</section>
+<section id="brecha-salarial-5" class="level2">
+<h2 class="anchored" data-anchor-id="brecha-salarial-5">Brecha salarial</h2>
+<p><img src="Sobrecargos_2.png" class="img-fluid"> <img src="Sobrecargos_3.png" class="img-fluid"></p>
+<div style="text-align: justify;">
+<p>En la distribución de ingresos por género, se observan variaciones significativas en las proporciones de cada tipo de ingreso durante el periodo analizado, tanto para hombres como para mujeres sobrecargos. En relación con el ingreso más bajo, tipo 2, en el primer semestre de 2023, todos los hombres encuestados reportaron recibirlo, mientras que solo el 25% de las mujeres indicó lo mismo. En el último periodo analizado, el segundo trimestre de 2024, el 94% de los hombres informaron recibir el ingreso tipo 2, en contraste con solo el 11% de las mujeres. En cuanto al ingreso más alto, tipo 5, no se registraron ocurrencias para los hombres, mientras que las mujeres reportaron una ocurrencia en el cuarto trimestre de 2023.</p>
+</div>
+</section>
+<section id="jornada-laboral-5" class="level2">
+<h2 class="anchored" data-anchor-id="jornada-laboral-5">Jornada laboral</h2>
+<p><img src="Sobrecargos_4.png" class="img-fluid"> <img src="Sobrecargos_5.png" class="img-fluid"></p>
+<div style="text-align: justify;">
+<p>Las distribuciones de las duraciones de las jornadas laborales para ambos géneros muestran grandes variaciones en las proporciones de cada tipo de jornada a lo largo de los trimestres investigados. Es importante destacar que, para ambos géneros, la jornada mínima registrada fue la de tipo 3. En cuanto a la jornada más larga, tipo 8, esta se presentó en todos los trimestres para las mujeres; sin embargo, en el caso de los hombres, solo se registraron ocurrencias en el segundo trimestre de 2023 y en el primer trimestre de 2024.</p>
+</div>
+</section>
+</section>
+<section id="trabajadores-de-la-fuerza-aérea" class="level1">
+<h1>Trabajadores de la Fuerza Aérea</h1>
+<section id="representación-laboral-6" class="level2">
+<h2 class="anchored" data-anchor-id="representación-laboral-6">Representación laboral</h2>
+<p><img src="Fuerza_aerea_1.png" class="img-fluid"></p>
+<div style="text-align: justify;">
+<p>La fuerza laboral de la fuerza aérea estuvo, en la gran parte de los trimestres analizados, representada por mayor proporción de hombres que de mujeres. Del primer trimestre de 2023 al segundo trimestre de 2023, los hombres representaron el total de la fuerza laboral. En el tercer trimestre de 2023, las mujeres comenzaron a tener representación, y por 1 % superaron a la proporción de hombres, no obstante, en los trimestres siguientes la proporción de mujeres comenzó a disminuir, finalizaron el segundo trimestre de 2024 con 18% de proporción de trabajadores de este campo.</p>
+</div>
+</section>
+<section id="brecha-salarial-6" class="level2">
+<h2 class="anchored" data-anchor-id="brecha-salarial-6">Brecha salarial</h2>
+<p><img src="Fuerza_aerea_2.png" class="img-fluid"> <img src="Fuerza_aerea_3.png" class="img-fluid"></p>
+<div style="text-align: justify;">
+<p>En la representación visual de la distribución de ingresos para las mujeres de la fuerza aérea, no se observan tendencias claras en los tipos de ingresos a lo largo del periodo analizado. Sin embargo, se identifica que en el tercer trimestre de 2023, la mayoría de las mujeres percibió ingresos del tipo 3; en el cuarto trimestre de 2023, la mayoría recibió ingresos del tipo 4; y en el segundo trimestre de 2024, todas las mujeres reportaron ingresos del tipo 2. En contraste, entre los hombres, los ingresos de tipo 2 fueron recibidos por la mayor proporción de hombres durante el periodo analizado.</p>
+</div>
+</section>
+<section id="jornada-laboral-6" class="level2">
+<h2 class="anchored" data-anchor-id="jornada-laboral-6">Jornada laboral</h2>
+<p><img src="Fuerza_aerea_4.png" class="img-fluid"> <img src="Fuerza_aerea_5.png" class="img-fluid"></p>
+<div style="text-align: justify;">
+<p>Al igual que en el indicador anterior, no se identifican tendencias claras en la distribución de la duración de la jornada laboral para las mujeres. En el caso de los hombres, se observa que el tipo de jornada 8 predominó a lo largo del periodo analizado.</p>
+</div>
+<!-- Notas al pie de página -->
+<div style="text-align: justify;">
+
+</div>
+</section>
+</section>
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>Según el Sistema Nacional de Clasificación de Ocupaciones (SINCO) 2019 del INEGI, los ingenieros mecánicos se definen como “Los profesionistas clasificados en este grupo unitario investigan, diseñan y desarrollan proyectos de manufactura de motores, equipos, máquinas industriales y para la construcción y dirigen o asesoran su fabricación, funcionamiento, mantenimiento y reparación. Comprende a los supervisores de trabajadores que realizan actividades de asesoría e investigación en ingeniería mecánica.” Además, sus ocupaciones son: ingeniería en materia aeroespacial, ingeniería en diseño mecánico e ingeniería mecánica. Entre sus funciones están: diseñar proyectos de manufactura de motores, equipos, máquinas industriales y para la construcción; desarrollar procedimientos a seguir para la producción, instalación y prueba de motores, equipos, máquinas industriales y para la construcción; detectar y, en su caso, corregir fallas mecánicas o problemas derivados de la manufactura, instalación y/o puesta en marcha de los motores, equipos, máquinas industriales y para la construcción.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>Según el Sistema Nacional de Clasificación de Ocupaciones (SINCO) 2019 del INEGI, “otros médicos especialistas” se definen como los “profesionistas clasificados en este grupo unitario tienen una formación especializada, diagnostican y tratan las enfermedades, trastornos fisiológicos y lesiones de los pacientes, relacionados con su especialidad”. Asimismo, las ocupaciones de este grupo son: medicina aeroespacial, audiología, dermatología, foniatría, medicina de rehabilitación, medicina de urgencias, medicina del deporte, medicina del trabajo, oftalmología y otorrinolaringología. Entre sus funciones está, “estudiar los efectos biológicos, fisiológicos y psicológicos de la microgravedad y los vuelos espaciales”.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>Según el Sistema Nacional de Clasificación de Ocupaciones (SINCO) 2019 del INEGI, los mecánicos en mantenimiento y reparación de vehículos de motor se definen como las personas trabajadoras que “examinan, reparan, ajustan y dan mantenimiento preventivo a los sistemas de combustión, transmisión, frenos y suspensión de vehículos automotores, como camiones de reparto, motocicletas; y otros vehículos automotores, como aviones, barcos, etcétera.” Las ocupaciones de este grupo son reparador de vehículos de motos y mecánico automotriz. Entre sus funciones, se consideran las de ajustar, examinar, probar y mantener motores de aviones; reparar, ajustar o, en su caso, reemplazar las partes dañadas tales como el motor, sub ensambles de la dirección, suspensión, transmisión y otras partes de los sistemas o mecanismos de vehículos, de acuerdo con las normas y especificaciones establecidas; y realizar servicios de mantenimiento programado como cambios de aceite, lubricantes y afinado de motor.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
